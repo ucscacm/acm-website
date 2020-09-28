@@ -13,7 +13,13 @@ $acm-yellow: #FFBB43;
 $acm-gray: #ECECF6;
 $acm-green: #8AF688;
 
+$acm-font: 'Oswald';
+
 .app-container {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
+
+@import 'components/Home/Banner/style';
+@import 'components/NavBar/style';
 
