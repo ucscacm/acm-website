@@ -6,7 +6,9 @@ import logo from './light-logo.png';
 function Banner(){
     return(
         <div class="banner-container">
-            <img class="background" src={background} alt="ACM-Banner"/>
+            <div class="background-container">
+                <img class="background" src={background} alt="ACM-Banner"/>
+            </div>
             <img class="logo" src={logo} alt="ACM-Banner"/>
             <div class="title">
                 <div class="title-ucsc">ucsc</div> 
