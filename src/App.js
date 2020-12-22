@@ -7,6 +7,7 @@ function App() {
   return (
     <div class="app-container">
       <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'></link>
+      <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'></link>
       <NavBar/>
       <Home />
     </div>

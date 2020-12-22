@@ -6,14 +6,20 @@ import logo from './light-logo.png';
 function Banner(){
     return(
         <div class="banner-container">
-            <div class="background-container">
-                <img class="background" src={background} alt="ACM-Banner"/>
-            </div>
             <img class="logo" src={logo} alt="ACM-Banner"/>
-            <div class="title">
-                <div class="title-ucsc">ucsc</div> 
-                <div class="title-acm">acm</div> 
-            </div>  
+                <div class="title-container">
+                    <div class="title">
+                        ucsc acm
+                    </div>
+                </div>  
+            <div class="content">
+                <div class="slogan">
+                    the largest computer science community at uc santa cruz
+                </div>
+                <div class="description">
+                    We are a student run organization that strives to create a supportive and inclusive community for people of all backgrounds and skill levels who are passionate about computer science to learn and network.
+                </div>
+            </div>
         </div>  
     );  
 }

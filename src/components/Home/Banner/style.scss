@@ -1,22 +1,46 @@
 
-.background{
-    //max-width: 100%;
-    width: 100%;
-    object-fit: cover;
-}
+.banner-container{
+    background-image: url('background-banner.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
 
-.title{
-    font-family: $acm-font;
-    font-weight: bold;
-    font-size: 96px;
-    .title-ucsc{
-        color: $acm-white;
+    .logo{
+        margin-top: 2.5%;
+        padding-left: 48%;
     }
-    .title-acm{
+    .title-container{
+        font-family: $acm-font;
+        font-weight: bold;
+        font-size: 96px;
+        display: flex;
+        font-weight: 900;
         color: $acm-blue;
+        text-align: center;
+
+        .title{
+            margin: 0 auto; 
+        }
     }
+
+    .content{
+        font-family: $acm-secondary-font; 
+        color: $acm-white;
+        font-size: 24px;
+        text-align: center;
+
+        .slogan{
+            font-style: italic;
+            margin-bottom: 28px;
+        }
+        .description{
+            padding-left: 10%;
+            padding-right: 10%;
+            font-weight: bold;
+            //<24 for still else move while scroll
+            margin-bottom: 23%;
+        }
+    }
+
 }
-
-
-
-
